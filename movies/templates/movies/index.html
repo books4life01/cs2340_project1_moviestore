@@ -36,7 +36,7 @@
         <div class="p-2 card align-items-center pt-4">
           <img src="{{ movie.image.url }}" class="rounded card-img-top img-card-200">
           <div class="card-body text-center">
-             <a class="nav-link" href="{% url 'movies.index' %}">{{movie.name}}</a>
+             <a class="nav-link" href="{% url 'movies.show' id=movie.id %}">{{movie.name}}</a>
           </div>
         </div>
       </div>
